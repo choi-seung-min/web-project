@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^12.1.10",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
+    "axios": "^0.27.2",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.0",
     "babel-loader": "8.1.0",
@@ -41,6 +42,7 @@
     "jest-circus": "26.6.0",
     "jest-resolve": "26.6.0",
     "jest-watch-typeahead": "0.6.1",
+    "loadash": "^1.0.0",
     "mini-css-extract-plugin": "0.11.3",
     "open-color": "^1.9.1",
     "optimize-css-assets-webpack-plugin": "5.0.4",
@@ -51,6 +53,7 @@
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "5.0.2",
     "prompts": "2.4.0",
+    "query-string": "^7.1.1",
     "react": "^17.0.2",
     "react-app-polyfill": "^2.0.0",
     "react-dev-utils": "^11.0.3",
@@ -62,6 +65,7 @@
     "react-scripts": "^5.0.1",
     "redux": "^4.2.0",
     "redux-actions": "^2.6.5",
+    "redux-pender": "^2.0.12",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.4",
     "sass-loader": "^10.2.1",
@@ -71,6 +75,7 @@
     "terser-webpack-plugin": "4.2.3",
     "ts-pnp": "1.2.0",
     "url-loader": "4.1.1",
+    "validator": "^13.7.0",
     "web-vitals": "^1.0.1",
     "webpack": "4.44.2",
     "webpack-dev-server": "3.11.1",
@@ -155,5 +160,6 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "proxy": "http://localhost:4000/"
 }
